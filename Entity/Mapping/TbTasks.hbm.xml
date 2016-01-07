@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="Entity.TbTasks,Entity" table="tb_Tasks" lazy = "false">
+
+		<id name="TaskId" column="Task_id" type="Int64" unsaved-value="0">
+			<generator class="native"/>
+		</id>
+		<property column="Task_url" type="String" name="TaskUrl" not-null="true" length="1073741823" />
+		<property column="Task_width" type="Int32" name="TaskWidth" not-null="true" />
+		<property column="Task_height" type="Int32" name="TaskHeight" not-null="true" />
+		<property column="Task_type" type="String" name="TaskType" not-null="true" length="100" />
+		<property column="Task_before_script" type="String" name="TaskBeforeScript" length="1073741823" />
+		<property column="Task_delay_time" type="Int32" name="TaskDelayTime" />
+		<property column="Task_monitoring_count" type="Int32" name="TaskMonitoringCount" />
+		<property column="Task_error_count" type="Int32" name="TaskErrorCount" />
+		<property column="Task_enable" type="Boolean" name="TaskEnable" />
+		<property column="Task_alert" type="Boolean" name="TaskAlert" />
+		<property column="Task_time" type="DateTime" name="TaskTime" not-null="true" />
+		
+	</class>
+</hibernate-mapping>

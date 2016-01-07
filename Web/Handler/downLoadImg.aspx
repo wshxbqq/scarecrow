@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="downLoadImg.aspx.cs" Inherits="Handler_downLoadImg" %>

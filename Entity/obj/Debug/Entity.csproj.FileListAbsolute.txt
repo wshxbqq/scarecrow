@@ -1,0 +1,9 @@
+D:\myProject\web\Audio\Entity\bin\Debug\Entity.dll
+D:\myProject\web\Audio\Entity\bin\Debug\Entity.pdb
+D:\myProject\web\Audio\Entity\obj\Debug\Entity.dll
+D:\myProject\web\Audio\Entity\obj\Debug\Entity.pdb
+D:\jdProject\Projects\scarecrow\Entity\bin\Debug\Entity.dll
+D:\jdProject\Projects\scarecrow\Entity\bin\Debug\Entity.pdb
+D:\jdProject\Projects\scarecrow\Entity\obj\Debug\Entity.dll
+D:\jdProject\Projects\scarecrow\Entity\obj\Debug\Entity.pdb
+D:\jdProject\Projects\scarecrow\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache

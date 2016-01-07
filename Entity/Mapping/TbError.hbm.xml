@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="Entity.TbError,Entity" table="tb_Error" lazy = "false">
+
+		<id name="ErrorId" column="error_id" type="Int64" unsaved-value="0">
+			<generator class="native"/>
+		</id>
+		<property column="error_task_id" type="Int64" name="ErrorTaskId" not-null="true" />
+		<property column="error_img" type="String" name="ErrorImg" not-null="true" length="1073741823" />
+		<property column="error_x" type="Int32" name="ErrorX" not-null="true" />
+		<property column="error_y" type="Int32" name="ErrorY" not-null="true" />
+		<property column="error_time" type="DateTime" name="ErrorTime" not-null="true" />
+		
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NhibernateDataAccess", "NhibernateDataAccess\NhibernateDataAccess.csproj", "{F48E14A3-6A54-4235-B99A-B33502818C0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{CA8C689C-7EB8-47F7-A4C9-BA1F0831A78A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dao", "Dao\Dao.csproj", "{A9F852E1-4C0C-4560-833A-221A00B077EE}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web", "Web\", "{F3393EFD-1E7A-4098-A006-7A109BC2D455}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{a9f852e1-4c0c-4560-833a-221a00b077ee}|Dao.dll;{CA8C689C-7EB8-47F7-A4C9-BA1F0831A78A}|Entity.dll;{F48E14A3-6A54-4235-B99A-B33502818C0E}|NhibernateDataAccess.dll;{acf39cec-74d8-46b5-90c4-39de0afc7425}|SeleniumHelper.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54798"
+		Debug.AspNetCompiler.PhysicalPath = "Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54798\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54798"
+		Release.AspNetCompiler.PhysicalPath = "Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54798\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54798"
+		SlnRelativePath = "Web\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumHelper", "SeleniumHelper\SeleniumHelper.csproj", "{ACF39CEC-74D8-46B5-90C4-39DE0AFC7425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScarecrowCli", "ScarecrowCli\ScarecrowCli.csproj", "{B91EF3A8-CF1B-42BC-9B10-685DA4BC0671}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F48E14A3-6A54-4235-B99A-B33502818C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48E14A3-6A54-4235-B99A-B33502818C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48E14A3-6A54-4235-B99A-B33502818C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48E14A3-6A54-4235-B99A-B33502818C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA8C689C-7EB8-47F7-A4C9-BA1F0831A78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8C689C-7EB8-47F7-A4C9-BA1F0831A78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8C689C-7EB8-47F7-A4C9-BA1F0831A78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8C689C-7EB8-47F7-A4C9-BA1F0831A78A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F852E1-4C0C-4560-833A-221A00B077EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F852E1-4C0C-4560-833A-221A00B077EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F852E1-4C0C-4560-833A-221A00B077EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F852E1-4C0C-4560-833A-221A00B077EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3393EFD-1E7A-4098-A006-7A109BC2D455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3393EFD-1E7A-4098-A006-7A109BC2D455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3393EFD-1E7A-4098-A006-7A109BC2D455}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3393EFD-1E7A-4098-A006-7A109BC2D455}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{ACF39CEC-74D8-46B5-90C4-39DE0AFC7425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF39CEC-74D8-46B5-90C4-39DE0AFC7425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF39CEC-74D8-46B5-90C4-39DE0AFC7425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF39CEC-74D8-46B5-90C4-39DE0AFC7425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91EF3A8-CF1B-42BC-9B10-685DA4BC0671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91EF3A8-CF1B-42BC-9B10-685DA4BC0671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91EF3A8-CF1B-42BC-9B10-685DA4BC0671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91EF3A8-CF1B-42BC-9B10-685DA4BC0671}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
